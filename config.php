@@ -1,6 +1,16 @@
 <?php
+/**
+ * @autor Ricardo de Oliveira - ricardo.reksystem@gmail.com - 2018
+ */
+
 require 'environment.php';
 
+//constants
+define("RAIZ", "/mvc");
+
+define("BASE", "http://localhost/mvc/");
+
+//connexao
 global $config;
 $config = array();
 if(ENVIRONMENT == 'development') 

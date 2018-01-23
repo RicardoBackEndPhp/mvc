@@ -1,11 +1,8 @@
 <?php
-class homeController extends controller {
-
-    public function __construct() {
-        parent::__construct();
-    }
-
-    public function index() {
+class homeController extends controller 
+{
+    public function index() 
+    {
         $dados = array();
         
         $posts = new Posts();

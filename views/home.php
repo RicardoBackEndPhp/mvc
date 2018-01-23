@@ -1,4 +1,4 @@
-<h1>Clientes</h1>
+<h1>Clientes teste</h1>
 <?php
     foreach($posts as $post) 
     {    
